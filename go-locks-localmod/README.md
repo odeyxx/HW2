@@ -21,5 +21,3 @@ go run ./cmd/bench -lock=cas    -threads=8 -iters=200000 -critus=5
 - `-outsideus` : microseconds of work outside the critical section
 - `-yield` : call `runtime.Gosched()` while spinning
 
-### Notes
-Implementations spin by design to match the algorithms discussed in class.
